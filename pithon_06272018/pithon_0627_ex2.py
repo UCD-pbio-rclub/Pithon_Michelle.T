@@ -14,4 +14,10 @@ def rev_sent():
 		rev_sentlist[0] = rev_sentlist[0].capitalize()
 		print(' '.join(rev_sentlist) + punct)
 	
+## flaw if the last character is a number. 
+## use string punctuation
 
+import string
+string punctuation
+
+#if sent[-1] in string punctuation:

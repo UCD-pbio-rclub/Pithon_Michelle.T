@@ -1,0 +1,25 @@
+Raspberry Pithon Club
+
+June 8th, 2018
+
+Getting started
+
+Used Etcher to flash Raspberian onto microSD card
+
+in boot, touch ssh to enable ssh into Pi
+
+John copied wifi config file onto microSD card to connect to PiNet, pw raspberrypi
+
+MichellePi IP address is 192.168.0.182
+
+Terminal:
+ssh pi@192.168.0.182
+
+sudo raspi-config
+enable vnc
+
+
+in VNC viewer, login by putting in IP address
+username is pi and pw is raspberry
+
+in VNC viewer, change resolution

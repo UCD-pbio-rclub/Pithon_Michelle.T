@@ -40,3 +40,5 @@ def is_palindrome():
 		print('It is a palindrome!')
 	else:
 		print('It is not a palindrome')
+
+r'[^\w\s] #this is regular expression, the ^ is "NOT"
